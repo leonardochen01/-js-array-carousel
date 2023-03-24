@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.relative{
+  position: relative;
+}
+
+.container{
+  background-color: aqua;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider{
+  background-color: chocolate;
+  width: 60%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+  
+  display: none;
+}
+
+.show{
+  display: block;
+}
+
+#btn1{
+  position: absolute;
+  top: 5px;
+}
+
+#btn2{
+  position: absolute;
+  bottom: 5px;
+}
